@@ -24,6 +24,9 @@ public class Shape {
         return 0;
     }
 
+    public abstract double perimeter();
+    public abstract double area();
+
 
     @Override
     public String toString() {
